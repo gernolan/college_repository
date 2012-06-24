@@ -1,4 +1,18 @@
 MusicShop::Application.routes.draw do
+  get "customer/home"
+
+  get "welcome/home"
+
+  get "welcome/about"
+  
+  get "welcome/thank_you"
+  
+  get "welcome/registration"
+
+  #get "welcome/us"
+
+  resources :products
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +62,7 @@ MusicShop::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  # root :to => "welcome", :action => "home"
 
   # See how all your routes lay out with "rake routes"
 

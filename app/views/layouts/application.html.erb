@@ -8,6 +8,10 @@
 </head>
 <body>
 
+| <%= link_to "Product Catalogue", products_path %> |
+<%= link_to "Leave Site", :controller => "welcome", :action => "thank_you" %> |
+<%= link_to "Registration", :controller => "welcome", :action => "registration" %> |
+<%= link_to "Home", :controller => "welcome", :action => "home" %> |
 <%= yield %>
 
 </body>
