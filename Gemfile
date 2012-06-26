@@ -1,18 +1,50 @@
+<<<<<<< HEAD
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.10'
+=======
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.3'
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
+<<<<<<< HEAD
 # Use unicorn as the web server
+=======
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platform => :ruby
+
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'jquery-rails'
+
+# To use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
+
+# To use Jbuilder templates for JSON
+# gem 'jbuilder'
+
+# Use unicorn as the app server
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 # gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
 
+<<<<<<< HEAD
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
 # gem 'ruby-debug19', :require => 'ruby-debug'
@@ -29,3 +61,7 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+=======
+# To use debugger
+# gem 'ruby-debug19', :require => 'ruby-debug'
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f

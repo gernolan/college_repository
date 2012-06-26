@@ -1,5 +1,11 @@
 # SQLite version 3.x
 #   gem install sqlite3
+<<<<<<< HEAD
+=======
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 development:
   adapter: sqlite3
   database: db/development.sqlite3

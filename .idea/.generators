@@ -5,4 +5,8 @@ You are allowed to:
 2. Remove generators
 3. Add installed generators
 To add new installed generators automatically delete this file and reload the project.
+<<<<<<< HEAD
 --><GeneratorsGroup><Generator name="controller" /><Generator name="generator" /><Generator name="helper" /><Generator name="integration_test" /><Generator name="mailer" /><Generator name="migration" /><Generator name="model" /><Generator name="observer" /><Generator name="performance_test" /><Generator name="plugin" /><Generator name="resource" /><Generator name="scaffold" /><Generator name="scaffold_controller" /><Generator name="session_migration" /><Generator name="stylesheets" /></GeneratorsGroup></Settings>
+=======
+--><GeneratorsGroup><Generator name="assets" /><Generator name="coffee:assets" /><Generator name="controller" /><Generator name="generator" /><Generator name="helper" /><Generator name="integration_test" /><Generator name="jquery:install" /><Generator name="js:assets" /><Generator name="mailer" /><Generator name="migration" /><Generator name="model" /><Generator name="observer" /><Generator name="performance_test" /><Generator name="resource" /><Generator name="scaffold" /><Generator name="scaffold_controller" /><Generator name="session_migration" /><Generator name="task" /></GeneratorsGroup></Settings>
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f

@@ -1,9 +1,23 @@
 MusicShop::Application.routes.draw do
+<<<<<<< HEAD
   get "welcome/home"
   
   get "welcome/thank_you"
   
   get "welcome/register"
+=======
+  get "customer/home"
+
+  get "welcome/home"
+
+  get "welcome/about"
+  
+  get "welcome/thank_you"
+  
+  get "welcome/registration"
+
+  #get "welcome/us"
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 
   resources :products
 
@@ -56,11 +70,19 @@ MusicShop::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
     root :to => "welcome", :action => "home"
+=======
+  # root :to => "welcome", :action => "home"
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
+<<<<<<< HEAD
   # match ':controller(/:action(/:id(.:format)))'
+=======
+  # match ':controller(/:action(/:id))(.:format)'
+>>>>>>> 746356a3f2b29b24690466f9d0e83e51a627489f
 end
