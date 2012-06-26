@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b487c572-9d91-4b5b-931d-4ec4b780b0b3" name="Default" comment="New Files">
       <change type="MODIFICATION" beforePath="$USER_HOME$/.RubyMine40/config/options/vcs.xml" afterPath="$USER_HOME$/.RubyMine40/config/options/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music_shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -187,6 +188,8 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
